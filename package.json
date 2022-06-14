@@ -25,6 +25,8 @@
     "@nestjs/config": "^2.1.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^8.0.0",
+    "@nestjsx/crud": "^5.0.0-alpha.3",
+    "@nestjsx/crud-typeorm": "^5.0.0-alpha.3",
     "nest-wechat": "^0.2.12",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
