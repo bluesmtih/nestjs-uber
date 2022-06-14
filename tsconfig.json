@@ -16,6 +16,16 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
-  }
+    "noFallthroughCasesInSwitch": false,
+    "paths":{
+      "@app/*" :["src/app/*"],
+      "@core/*":["src/core/*"],
+      "@shared/*" :["src/shared/*"],
+      "@config/*":["src/config/*"],
+      "@library/*":["src/library/*"],
+      "@typeorm/*":["src/typeorm/*"],
+      "@typing/*":["src/typing/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
 }
