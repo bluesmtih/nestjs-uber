@@ -1,1 +1,1 @@
-// 整个项目的配置文件
+export * from './swagger.config';
